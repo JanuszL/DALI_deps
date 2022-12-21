@@ -261,6 +261,18 @@ comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerabi
 exception_status = "approved"
 
 
+# libtar, issues patched in the upstream
+
+[[oss.allowlist]]
+cve-id = "CVE-2013-4420"
+package = "libtar"
+versions = ["1.2.20"]
+jira = "PSIRT-814"
+comment = "The libtar's upstream repo used by DALI (https://github.com/tklauser/libtar/tree/6379b5d2ae777dad576aeae70566740670057821) already contains the relevant fix: https://github.com/tklauser/libtar/commit/dcac6905ab8eb251edd1308770c46783de88667a."
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+
 # FFmpeg, https://github.com/NVIDIA/DALI_deps/pull/69
 
 [[oss.allowlist]]
