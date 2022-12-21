@@ -201,6 +201,27 @@ comment = "Alias for CVE-2022-34266"
 exception_status = "open"
 
 
+# libTIFF, libjbig vulnerability that libtiff team refuses to address as an issue with libjbig itself
+
+[[oss.allowlist]]
+cve-id = "BDSA-2022-0878"
+package = "libTIFF"
+versions = ["4.4.0", "4.5.0"]
+jira = "PSIRT-981"
+comment = "The libtiff build for DALI is built without the libjbig"
+# exception_status can be approved, open, closed
+exception_status = "open"
+
+[[oss.allowlist]]
+cve-id = "CVE-2022-1210"
+package = "libTIFF"
+versions = ["4.4.0", "4.5.0"]
+jira = "PSIRT-981"
+comment = "The libtiff build for DALI is built without the libjbig"
+# exception_status can be approved, open, closed
+exception_status = "open"
+
+
 # libtar, https://github.com/NVIDIA/DALI_deps/pull/52
 
 [[oss.allowlist]]
