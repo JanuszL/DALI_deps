@@ -369,3 +369,5 @@ comment = 'cmake is used only as a build tool, its utilities are not shipped in 
 # FFmpeg: CVE-2021-38291, BDSA-2022-2379
 # https://jirasw.nvidia.com/browse/NSPECT-8727, https://jirasw.nvidia.com/browse/NSPECT-8030
 #
+# CVE-2022-3970
+# libtiff 4.5.0 incorrectly picked as 4.5.0rc1, https://jirasw.nvidia.com/browse/NSPECT-8733
