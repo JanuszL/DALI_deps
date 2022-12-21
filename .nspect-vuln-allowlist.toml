@@ -123,27 +123,6 @@ comment = "The https://github.com/NVIDIA/DALI_deps/pull/67 patches the vulnerabi
 exception_status = "approved"
 
 
-# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/69
-
-[[oss.allowlist]]
-cve-id = "CVE-2022-3965"
-package = "libTIFF"
-versions = ["4.4.0"]
-jira = "PSIRT-967"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
-# exception_status can be approved, open, closed
-exception_status = "approved"
-
-[[oss.allowlist]]
-cve-id = "CVE-2022-3964"
-package = "libTIFF"
-versions = ["4.4.0"]
-jira = "PSIRT-967"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
-# exception_status can be approved, open, closed
-exception_status = "approved"
-
-
 # libTIFF, https://github.com/NVIDIA/DALI_deps/pull/64
 
 [[oss.allowlist]]
@@ -201,6 +180,27 @@ comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerabi
 exception_status = "open"
 
 
+# libTIFF, the Amazon reported CVE that is not fully disclosed nor fixed in the upstream libtiff
+
+[[oss.allowlist]]
+cve-id = "CVE-2022-34266"
+package = "libTIFF"
+versions = ["4.4.0"]
+jira = "PSIRT-811"
+comment = "The Amazon reported CVE that is not fully disclosed nor fixed in the upstream libtiff"
+# exception_status can be approved, open, closed
+exception_status = "open"
+
+[[oss.allowlist]]
+cve-id = "BDSA-2022-2003"
+package = "libTIFF"
+versions = ["4.4.0"]
+jira = "PSIRT-811"
+comment = "Alias for CVE-2022-34266"
+# exception_status can be approved, open, closed
+exception_status = "open"
+
+
 # libtar, https://github.com/NVIDIA/DALI_deps/pull/52
 
 [[oss.allowlist]]
@@ -236,6 +236,45 @@ package = "libtar"
 versions = ["1.2.20"]
 jira = "PSIRT-782"
 comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+
+# FFmpeg, https://github.com/NVIDIA/DALI_deps/pull/69
+
+[[oss.allowlist]]
+cve-id = "CVE-2022-3965"
+package = "FFmpeg"
+versions = ["n5.1.2"]
+jira = "PSIRT-967"
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it."
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+[[oss.allowlist]]
+cve-id = "CVE-2022-3965"
+package = "mpv"
+versions = ["n5.1.2"]
+jira = "PSIRT-967"
+comment = "mpv is just a name of package inside FFmpeg, third_party/FFmpeg/tools/"
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+[[oss.allowlist]]
+cve-id = "CVE-2022-3964"
+package = "FFmpeg"
+versions = ["n5.1.2"]
+jira = "PSIRT-967"
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it."
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+[[oss.allowlist]]
+cve-id = "CVE-2022-3964"
+package = "mpv"
+versions = ["n5.1.2"]
+jira = "PSIRT-967"
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
