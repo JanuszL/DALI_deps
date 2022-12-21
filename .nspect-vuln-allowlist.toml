@@ -3,59 +3,59 @@ version = "1.0.0"
 [oss]
 
 
-# libtiff, https://github.com/NVIDIA/DALI_deps/pull/51
+# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/51
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2058"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-701"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/51 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/51 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2057"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-701"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/51 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/51 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2056"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-701"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/51 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/51 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 
-# libtiff, https://github.com/NVIDIA/DALI_deps/pull/57
+# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/57
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2953"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2521"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "BDSA-2022-2448"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
 comment = "Aliases CVE-2022-2521"
@@ -64,16 +64,16 @@ exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2520"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "BDSA-2022-2447"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
 comment = "Aliases CVE-2022-2520"
@@ -82,16 +82,16 @@ exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-2519"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "BDSA-2022-2440"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-783"
 comment = "Aliases CVE-2022-2519"
@@ -99,104 +99,104 @@ comment = "Aliases CVE-2022-2519"
 exception_status = "approved"
 
 
-# libtiff, https://github.com/NVIDIA/DALI_deps/pull/52
+# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/52
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-34526"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-743"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/52 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/52 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 
-# libtiff, https://github.com/NVIDIA/DALI_deps/pull/67
+# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/67
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3970"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-873"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/67 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/67 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 
-# libtiff, https://github.com/NVIDIA/DALI_deps/pull/69
+# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/69
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3965"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-967"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3964"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-967"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
 
-# libtiff, https://github.com/NVIDIA/DALI_deps/pull/64
+# libTIFF, https://github.com/NVIDIA/DALI_deps/pull/64
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3597"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-843"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "open"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3626"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-843"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "open"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3627"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-843"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "open"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3599"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-843"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "open"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3570"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-843"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "open"
 
 [[oss.allowlist]]
 cve-id = "CVE-2022-3598"
-package = "libtiff"
+package = "libTIFF"
 versions = ["4.4.0"]
 jira = "PSIRT-843"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/64 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "open"
 
@@ -208,7 +208,7 @@ cve-id = "CVE-2021-33643"
 package = "libtar"
 versions = ["1.2.20"]
 jira = "PSIRT-782"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
@@ -217,7 +217,7 @@ cve-id = "CVE-2021-33644"
 package = "libtar"
 versions = ["1.2.20"]
 jira = "PSIRT-782"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
@@ -226,7 +226,7 @@ cve-id = "CVE-2021-33645"
 package = "libtar"
 versions = ["1.2.20"]
 jira = "PSIRT-782"
-comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libtiff release that contains the fix."
+comment = "The https://github.com/NVIDIA/DALI_deps/pull/57 patches the vulnerability. However it happens in the build time, so the scanner won't see it util there is a new libTIFF release that contains the fix."
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
