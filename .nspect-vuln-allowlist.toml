@@ -357,6 +357,9 @@ exception_status = "approved"
 paths = ['third_party/CMake/Utilities/']
 comment = 'cmake is used only as a build tool, its utilities are not shipped in any way'
 
+[[oss.excluded.directories]]
+paths = ['third_party/opencv/platforms/android/']
+comment = 'We do not ship opencv for Android'
 
 # [[oss.excluded.directories]]
 # paths = ['you/can/*/wildcards']
