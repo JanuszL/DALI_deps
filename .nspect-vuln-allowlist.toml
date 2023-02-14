@@ -294,6 +294,15 @@ comment = "mpv is just a name of package inside FFmpeg, third_party/FFmpeg/tools
 exception_status = "approved"
 
 [[oss.allowlist]]
+cve-id = "BDSA-2022-3213"
+package = "FFmpeg"
+versions = ["n5.1.2"]
+jira = "PSIRT-967"
+comment = "This is CVE-2022-3965, just with BD's id, already patched"
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+[[oss.allowlist]]
 cve-id = "CVE-2022-3964"
 package = "FFmpeg"
 versions = ["n5.1.2"]
@@ -308,6 +317,15 @@ package = "mpv"
 versions = ["n5.1.2"]
 jira = "PSIRT-967"
 comment = "The https://github.com/NVIDIA/DALI_deps/pull/69 patches the vulnerability. However it happens in the build time, so the scanner won't see it."
+# exception_status can be approved, open, closed
+exception_status = "approved"
+
+[[oss.allowlist]]
+cve-id = "BDSA-2022-3212"
+package = "FFmpeg"
+versions = ["n5.1.2"]
+jira = "PSIRT-967"
+comment = "This is CVE-2022-3964, just with BD's id, already patched"
 # exception_status can be approved, open, closed
 exception_status = "approved"
 
