@@ -379,6 +379,10 @@ comment = 'cmake is used only as a build tool, its utilities are not shipped in 
 paths = ['third_party/opencv/platforms/android/']
 comment = 'We do not ship opencv for Android'
 
+[[oss.excluded.directories]]
+paths = ['third_party/opencv/modules/java/test/']
+comment = 'Tests directory (and we do not ship opencv for Java)'
+
 # [[oss.excluded.directories]]
 # paths = ['you/can/*/wildcards']
 # comment = 'To add another exception, copy and uncomment me'
