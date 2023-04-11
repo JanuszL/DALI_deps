@@ -383,6 +383,10 @@ comment = 'We do not ship opencv for Android'
 paths = ['third_party/opencv/modules/java/test/']
 comment = 'Tests directory (and we do not ship opencv for Java)'
 
+[[oss.excluded.directories]]
+paths = ['third_party/protobuf/benchmarks/java']
+comment = 'Benchmark directory (and we do not ship protobuf for Java)'
+
 # [[oss.excluded.directories]]
 # paths = ['you/can/*/wildcards']
 # comment = 'To add another exception, copy and uncomment me'
