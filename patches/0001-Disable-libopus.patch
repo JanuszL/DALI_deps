@@ -1,0 +1,40 @@
+From 227a1fa4f50fb9dd858fc0548fd3bf51ecec3cf6 Mon Sep 17 00:00:00 2001
+From: Janusz Lisiecki <jlisiecki@nvidia.com>
+Date: Fri, 4 Aug 2023 10:02:17 +0200
+Subject: [PATCH] Disable libopus
+
+Signed-off-by: Janusz Lisiecki <jlisiecki@nvidia.com>
+---
+ CMakeLists.txt | 2 +-
+ src/ogg_opus.c | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index dda22431..f0a1cac7 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -394,7 +394,7 @@ target_link_libraries (sndfile
+ 		$<$<BOOL:${HAVE_EXTERNAL_XIPH_LIBS}>:Vorbis::vorbisenc>
+ 		$<$<BOOL:${HAVE_EXTERNAL_XIPH_LIBS}>:FLAC::FLAC>
+ 		$<$<AND:$<BOOL:${ENABLE_EXPERIMENTAL}>,$<BOOL:${HAVE_EXTERNAL_XIPH_LIBS}>,$<BOOL:${HAVE_SPEEX}>>:Speex::Speex>
+-		$<$<BOOL:${HAVE_EXTERNAL_XIPH_LIBS}>:Opus::opus>
++#		$<$<BOOL:${HAVE_EXTERNAL_XIPH_LIBS}>:Opus::opus>
+ 		$<$<BOOL:${HAVE_MPEG}>:MPG123::libmpg123>
+ 		$<$<BOOL:${HAVE_MPEG}>:mp3lame::mp3lame>
+ 	)
+diff --git a/src/ogg_opus.c b/src/ogg_opus.c
+index c9383624..596bb698 100644
+--- a/src/ogg_opus.c
++++ b/src/ogg_opus.c
+@@ -159,7 +159,7 @@
+ #include "sfendian.h"
+ #include "common.h"
+ 
+-#if HAVE_EXTERNAL_XIPH_LIBS
++#if 0
+ 
+ #include <ogg/ogg.h>
+ #include <opus/opus.h>
+-- 
+2.34.1
+

@@ -50,7 +50,7 @@ PACKAGE_LIST=(
     "libflac"
     "libogg"
     "libvorbis" # Install after libogg
-    "libopus"
+#    "libopus" dissable as it is not needed anymore
     "libsnd"
     "libtar"
     "cfitsio"
