@@ -387,6 +387,10 @@ comment = 'Tests directory (and we do not ship opencv for Java)'
 paths = ['third_party/protobuf/benchmarks/java']
 comment = 'Benchmark directory (and we do not ship protobuf for Java)'
 
+[[oss.excluded.directories]]
+paths = ['third_party/openjpeg/thirdparty/liblcms2']
+comment = 'We build the openjpeg with BUILD_CODEC=OFF, which makes it not depend on LCMS(2)'
+
 # [[oss.excluded.directories]]
 # paths = ['you/can/*/wildcards']
 # comment = 'To add another exception, copy and uncomment me'
