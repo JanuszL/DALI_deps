@@ -384,6 +384,10 @@ paths = ['third_party/opencv/modules/java/test/']
 comment = 'Tests directory (and we do not ship opencv for Java)'
 
 [[oss.excluded.directories]]
+paths = ['third_party/opencv/3rdparty/libjpeg-turbo']
+comment = 'We build the opencv with with BUILD_JPEG=OFF and use recent version of libjpeg-turbo built manually'
+
+[[oss.excluded.directories]]
 paths = ['third_party/protobuf/benchmarks/java']
 comment = 'Benchmark directory (and we do not ship protobuf for Java)'
 
