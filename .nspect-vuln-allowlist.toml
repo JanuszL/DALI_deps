@@ -392,6 +392,10 @@ paths = ['third_party/protobuf/benchmarks/java']
 comment = 'Benchmark directory (and we do not ship protobuf for Java)'
 
 [[oss.excluded.directories]]
+paths = ['third_party/protobuf/examples/go']
+comment = 'Examples directory with protobuf for GO (we do not build, ship, or use protobuf for GO)'
+
+[[oss.excluded.directories]]
 paths = ['third_party/openjpeg/thirdparty/liblcms2']
 comment = 'We build the openjpeg with BUILD_CODEC=OFF, which makes it not depend on LCMS(2)'
 
