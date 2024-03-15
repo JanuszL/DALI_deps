@@ -392,7 +392,7 @@ paths = ['third_party/protobuf/benchmarks/java']
 comment = 'Benchmark directory (and we do not ship protobuf for Java)'
 
 [[oss.excluded.directories]]
-paths = ['third_party/protobuf/examples/go']
+paths = ['github.com/protocolbuffers/protobuf/examples/go', 'third_party/protobuf/examples/go', '-go_mod/google.golang.org/protobuf:v1.27.1']
 comment = 'Examples directory with protobuf for GO (we do not build, ship, or use protobuf for GO)'
 
 [[oss.excluded.directories]]
