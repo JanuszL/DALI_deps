@@ -399,6 +399,22 @@ comment = 'Examples directory with protobuf for GO (we do not build, ship, or us
 paths = ['third_party/openjpeg/thirdparty/liblcms2']
 comment = 'We build the openjpeg with BUILD_CODEC=OFF, which makes it not depend on LCMS(2)'
 
+[[oss.excluded.directories]]
+paths = ['third_party/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-lc/tests']
+comment = 'We dont build/ship tests'
+
+[[oss.excluded.directories]]
+paths = ['third_party/aws-sdk-cpp/tests']
+comment = 'We dont build/ship tests'
+
+[[oss.excluded.directories]]
+paths = ['third_party/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-lc/third_party/googletest']
+comment = 'We dont build/ship tests'
+
+[[oss.excluded.directories]]
+paths = ['com*third_party/aws-sdk-cpp/tools/code-generation/generator*']
+comment = 'DALI doesnt use JAVA API'
+
 # [[oss.excluded.directories]]
 # paths = ['you/can/*/wildcards']
 # comment = 'To add another exception, copy and uncomment me'
