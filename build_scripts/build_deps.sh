@@ -61,7 +61,16 @@ PACKAGE_LIST=(
     "libsndfile"
     "libtar"
     "cfitsio"
+    # OpenSSL and curl are shared by aws-sdk-cpp and google-cloud-cpp; both are
+    # built once here, into the common prefix, rather than each building its
+    # own private copy.
+    "openssl"
+    "curl"
     "aws-sdk-cpp"
+    "nlohmann_json"
+    "opentelemetry-cpp"
+    "grpc" # Install after protobuf, openssl and zlib
+    "google-cloud-cpp" # Install last, it uses everything above
 )
 
 for PACKAGE in "${PACKAGE_LIST[@]}"; do
